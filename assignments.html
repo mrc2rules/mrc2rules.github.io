@@ -14,7 +14,7 @@
 
         body {
             font-family: 'Montserrat', sans-serif;
-            background-color: #1a1a1a;
+            background-color: #1A2517;
             color: #ffffff;
             line-height: 1.6;
         }
@@ -28,7 +28,7 @@
         header {
             padding: 60px 0;
             text-align: center;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid #2e3b2a;
         }
 
         header h1 {
@@ -40,20 +40,15 @@
         header p {
             font-size: 1.1em;
             font-weight: 300;
-            color: #b0b0b0;
+            color: #cfe1c4;
         }
 
         .back-link {
             display: inline-block;
             margin: 20px 0;
-            color: #4a9eff;
+            color: #ACC8A2;
             text-decoration: none;
             font-weight: 600;
-            transition: color 0.3s;
-        }
-
-        .back-link:hover {
-            color: #6bb3ff;
         }
 
         section {
@@ -64,12 +59,11 @@
             font-size: 2em;
             margin-bottom: 30px;
             font-weight: 700;
-            color: #4a9eff;
+            color: #ACC8A2;
         }
 
         .assignments-table {
-            width: 100%;
-            background-color: #242424;
+            background-color: #22301e;
             border-radius: 8px;
             overflow: hidden;
             margin-bottom: 40px;
@@ -81,233 +75,169 @@
         }
 
         th {
-            background-color: #2a2a2a;
+            background-color: #2b3a25;
             padding: 20px;
             text-align: left;
             font-weight: 600;
-            border-bottom: 2px solid #333;
+            border-bottom: 2px solid #33472e;
         }
 
         td {
             padding: 20px;
-            border-bottom: 1px solid #333;
+            border-bottom: 1px solid #33472e;
             font-weight: 300;
         }
 
-        tr:last-child td {
-            border-bottom: none;
-        }
-
         tr:hover {
-            background-color: #2a2a2a;
+            background-color: #2b3a25;
         }
 
         .course-code {
-            color: #4a9eff;
+            color: #ACC8A2;
             font-weight: 600;
         }
 
         .reflection-card {
-            background-color: #242424;
+            background-color: #22301e;
             padding: 30px;
             border-radius: 8px;
-            margin-bottom: 30px;
-            border-left: 4px solid #4a9eff;
+            margin-bottom: 40px;
+            border-left: 4px solid #ACC8A2;
         }
 
         .reflection-card h3 {
             font-size: 1.5em;
             margin-bottom: 15px;
-            font-weight: 600;
-            color: #4a9eff;
+            color: #ACC8A2;
         }
 
         .reflection-card p {
-            color: #b0b0b0;
-            font-weight: 300;
-            line-height: 1.8;
+            color: #dbe8d5;
             margin-bottom: 15px;
+        }
+
+        .reflection-media {
+            margin: 20px 0;
+        }
+
+        .reflection-media img {
+            max-width: 100%;
+            border-radius: 6px;
+            margin-top: 10px;
+            border: 1px solid #33472e;
+        }
+
+        .reflection-media a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #ACC8A2;
+            font-weight: 600;
+            text-decoration: none;
         }
 
         .category-tag {
             display: inline-block;
-            background-color: #2a2a2a;
+            background-color: #2b3a25;
             padding: 8px 16px;
             border-radius: 20px;
             font-size: 0.85em;
             font-weight: 600;
             margin-right: 10px;
             margin-top: 10px;
-            border: 1px solid #333;
+            border: 1px solid #33472e;
         }
 
         footer {
-            background-color: #0f0f0f;
+            background-color: #141d11;
             padding: 30px 0;
             text-align: center;
             margin-top: 60px;
-            border-top: 1px solid #333;
+            border-top: 1px solid #2e3b2a;
         }
 
         footer p {
-            color: #777;
-            font-weight: 300;
-        }
-
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8em;
-            }
-
-            .assignments-table {
-                overflow-x: auto;
-            }
-
-            table {
-                font-size: 0.9em;
-            }
-
-            th, td {
-                padding: 15px 10px;
-            }
+            color: #9fb49a;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a href="index.html" class="back-link">← Back to Portfolio</a>
-            <h1>Assignments & Projects</h1>
-            <p>Academic coursework and personal reflections</p>
+
+<header>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+        <h1>Assignments & Projects</h1>
+        <p>Academic coursework and personal reflections</p>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Reflections & Learning Experiences</h2>
+
+        <div class="reflection-card">
+            <h3>PPG Industrial Talk 1 – PPG Malaysia Technology Center</h3>
+
+            <div class="reflection-media">
+                <a href="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/IT1.pdf" target="_blank">
+                    View Industry Talk Reflection (PDF) →
+                </a>
+            </div>
+
+            <p>I attended an industry talk by PPG Malaysia Technology Center (MYTC) which gave me insight into how global-scale digital operations are managed through analytics, cloud infrastructure, and enterprise systems.</p>
+
+            <span class="category-tag">Industry Insights</span>
+            <span class="category-tag">Cloud Computing</span>
         </div>
-    </header>
 
-    <section>
-        <div class="container">
-            <h2>University Projects Summary</h2>
-            
-            <div class="assignments-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Project Name</th>
-                            <th>Institution</th>
-                            <th>Course/Context</th>
-                            <th>Description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Design Thinking Project</strong></td>
-                            <td>UTM</td>
-                            <td><span class="course-code">Innovation & Design</span></td>
-                            <td>User-centered design project following Design Thinking methodology</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Digital Logic Elevator Project</strong></td>
-                            <td>UTM</td>
-                            <td><span class="course-code">SECR1013</span></td>
-                            <td>Elevator control system designed using digital logic circuits</td>
-                        </tr>
-                    </tbody>
-                </table>
+        <div class="reflection-card">
+            <h3>PC Assembly & Disassembly Practical Session</h3>
+
+            <div class="reflection-media">
+                <img src="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/1768814611136.jpg" alt="PC Building Session">
             </div>
 
-            <h2>Current Courses (Semester 1, UTM)</h2>
-            
-            <div class="assignments-table">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Course Code</th>
-                            <th>Course Name</th>
-                            <th>Category</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><span class="course-code">SECP1513</span></td>
-                            <td>Technology and Information System</td>
-                            <td><span class="category-tag">Core</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="course-code">SECJ1013</span></td>
-                            <td>Programming Technique I</td>
-                            <td><span class="category-tag">Programming</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="course-code">SECR1013</span></td>
-                            <td>Digital Logic</td>
-                            <td><span class="category-tag">Hardware</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="course-code">SECI1013</span></td>
-                            <td>Discrete Structure</td>
-                            <td><span class="category-tag">Mathematics</span></td>
-                        </tr>
-                        <tr>
-                            <td><span class="course-code">ULRS1032</span></td>
-                            <td>Integrity and Anti-Corruption</td>
-                            <td><span class="category-tag">General Studies</span></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <p>This hands-on session strengthened my understanding of internal hardware components and how they interact in a complete system.</p>
+
+            <span class="category-tag">Hands-on Learning</span>
+            <span class="category-tag">Hardware</span>
         </div>
-    </section>
 
-    <section style="background-color: #0f0f0f;">
-        <div class="container">
-            <h2>Reflections & Learning Experiences</h2>
+        <div class="reflection-card">
+            <h3>UTMDigital Open Day 2025</h3>
 
-            <div class="reflection-card">
-                <h3>PPG Industrial Talk 1 - PPG Malaysia Technology Center</h3>
-                <p><em>Date: 20 November 2025 | Course: SECP1513 - Technology Information System</em></p>
-                <p>I attended an industry talk by PPG Malaysia Technology Center (MYTC) as part of my SECP1513 course. It gave me an in-depth look at how large-scale digital operations are run in a global company. The session explored how data analytics, cloud infrastructure, and enterprise systems work together to drive efficiency, scalability, and innovation.</p>
-                <p>I learned about real-world applications like the Global Marine Heart Navigator for supply chain management, multi-source enterprise data analytics, and machine learning operations. The talk also highlighted cloud strategies using AWS, Azure, VMware, Oracle Cloud, and Alibaba Cloud, showing how distributed IT teams maintain 24/7 support, secure networks, and scalable platforms.</p>
-                <p>On the ERP side, I learned how SAP S/4HANA supports different streams—finance, supply chain, production planning, and order-to-cash—demonstrating how interconnected enterprise systems ensure smooth global operations. The Plan-Build-Run model helped visualize how architecture, infrastructure, and operations teams collaborate to deliver reliable services across regions.</p>
-                <p>The industry talk gave me a better understanding of how analytics, cloud infrastructure, and enterprise systems skills play a part in ICT roles. It reinforced the importance of combining technical expertise with process-driven thinking to make global digital transformation possible.</p>
-                <span class="category-tag">Industry Insights</span>
-                <span class="category-tag">Cloud Computing</span>
-                <span class="category-tag">Enterprise Systems</span>
+            <div class="reflection-media">
+                <img src="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/1768814005622.jpg" alt="UTMDigital Open Day">
             </div>
 
-            <div class="reflection-card">
-                <h3>PC Assembly & Disassembly Practical Session</h3>
-                <p><em>Date: 12 November 2025 | Course: SECP1513 - Technology Information System</em></p>
-                <p>I participated in a hands-on PC assembly and disassembly session as part of my SECP1513 course. Under the supervision of lab assistants, we examined key internal components, carefully disassembled the internal PC components, later reassembled it step by step, and tested the system to ensure it functioned correctly. This practical, hands-on approach helped reinforce our understanding of hardware architecture and how individual components work together within a system.</p>
-                <p>The class ended with a theoretical quiz based on the activity we just completed in order to assess our understanding in class. Overall, it was a fun memorable session which enhanced my understanding of computer hardware through a practical, hands-on experience.</p>
-                <span class="category-tag">Hands-on Learning</span>
-                <span class="category-tag">Hardware</span>
-                <span class="category-tag">Computer Architecture</span>
-            </div>
+            <p>The UTMDigital Open Day exposed me to real-world digital solutions from industry partners such as Oracle, Dell Technologies, Canon, and Microsoft.</p>
 
-            <div class="reflection-card">
-                <h3>UTMDigital Open Day 2025</h3>
-                <p><em>Date: 28 October 2025 | Course: SECP1513 - Technology Information System</em></p>
-                <p>I attended the UTMDigital Open Day 2025 at Blok D07, UTM Johor Bahru and it turned out to be far more insightful than I expected! The open day featured a wide range of booths from UTMDigital's industry partners, including Microsoft, Archibus, Axis, Enfrasys, Canon, Dell Technologies, and Oracle Academy. Exploring these booths gave me valuable exposure to real-world digital solutions currently shaping industries in Malaysia and globally. I also had the opportunity to engage directly with staff and conduct interviews, allowing me to gain deeper insight into how these technologies are applied in practice.</p>
-                <p>One of the highlights was attending the Oracle Academy talk by Sir Mohd Asrul bin Mohamad Zin at the Bilik Ruckus hall. The session provided a clear overview of Oracle Academy's global education initiatives, including certifications and courses in databases, cloud computing, Java, and emerging AI programs. The talk was especially beneficial for students interested in cybersecurity and cloud-related career paths and highlighted Oracle's role in connecting Malaysian higher education institutions with leading enterprises across Asia.</p>
-                <p>At the Dell Technologies booth, I got to check out their rugged laptops and we were even allowed to throw it on the floor! (ps. it still worked!) The D-RON booth stood out as well, showcasing camera sensory technology capable of monitoring temperature and humidity, with ongoing development in areas such as facial recognition. These demonstrations helped me better understand how digital technologies are implemented beyond theoretical concepts.</p>
-                <p>In addition, sessions by speakers such as Ts. Dr. Suraya binti Ya'acob on enterprise architecture and industry representatives from Canon and Microcorp provided valuable insights into how AI, digital infrastructure, and data management are shaping modern organizations.</p>
-                <p>Overall, the UTMDigital Open Day allowed us to gain exposure to new companies and services they offer, and how they're working to benefit students. It reinforced the importance of understanding not just technology, but also processes, people, and workflow in achieving meaningful digital transformation.</p>
-                <span class="category-tag">Technology Exposure</span>
-                <span class="category-tag">Industry Trends</span>
-                <span class="category-tag">Networking</span>
-            </div>
-
-            <div class="reflection-card">
-                <h3>Design Thinking Project</h3>
-                <p>This project taught me about the Design Thinking methodology and how it can be employed to create useful solutions for users by following certain phases like empathy, define, ideation, prototype and testing phase. It helped me learn how to tackle problems in a better manner and become competent at designing systems without any presumptions regarding users.</p>
-                <span class="category-tag">Methodology</span>
-                <span class="category-tag">User-Centered Design</span>
-            </div>
+            <span class="category-tag">Technology Exposure</span>
+            <span class="category-tag">Industry Trends</span>
         </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Mohammed Rahbab Chowdhury. All rights reserved.</p>
+        <div class="reflection-card">
+            <h3>Design Thinking Project</h3>
+
+            <div class="reflection-media">
+                <a href="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/TISProject.pdf" target="_blank">
+                    View Design Thinking Project (PDF) →
+                </a>
+            </div>
+
+            <p>This project introduced me to structured problem-solving through empathy-driven design and iterative testing.</p>
+
+            <span class="category-tag">Design Thinking</span>
+            <span class="category-tag">User-Centered Design</span>
         </div>
-    </footer>
+
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Mohammed Rahbab Chowdhury. All rights reserved.</p>
+    </div>
+</footer>
+
 </body>
 </html>
