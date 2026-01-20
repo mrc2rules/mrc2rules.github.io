@@ -6,7 +6,11 @@
     <title>Assignments & Projects - Mohammed Rahbab Chowdhury</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             font-family: 'Montserrat', sans-serif;
@@ -15,7 +19,11 @@
             line-height: 1.6;
         }
 
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
 
         header {
             padding: 60px 0;
@@ -23,13 +31,72 @@
             border-bottom: 1px solid #2a3326;
         }
 
-        header p { color: #b7c7b0; }
+        header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
 
-        .back-link { color: #ACC8A2; font-weight: 600; text-decoration: none; }
+        header p {
+            font-size: 1.1em;
+            font-weight: 300;
+            color: #b7c7b0;
+        }
 
-        section { padding: 60px 0; }
+        .back-link {
+            display: inline-block;
+            margin: 20px 0;
+            color: #ACC8A2;
+            text-decoration: none;
+            font-weight: 600;
+        }
 
-        h2 { color: #ACC8A2; }
+        section {
+            padding: 60px 0;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+            font-weight: 700;
+            color: #ACC8A2;
+        }
+
+        .assignments-table {
+            width: 100%;
+            background-color: #1b2418;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #1f2a1c;
+            padding: 20px;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 2px solid #2a3326;
+        }
+
+        td {
+            padding: 20px;
+            border-bottom: 1px solid #2a3326;
+            font-weight: 300;
+        }
+
+        tr:hover {
+            background-color: #1f2a1c;
+        }
+
+        .course-code {
+            color: #ACC8A2;
+            font-weight: 600;
+        }
 
         .reflection-card {
             background-color: #1b2418;
@@ -39,9 +106,19 @@
             border-left: 4px solid #ACC8A2;
         }
 
-        .reflection-card h3 { color: #ACC8A2; }
+        .reflection-card h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: #ACC8A2;
+        }
 
-        .reflection-card p { color: #b7c7b0; margin-bottom: 15px; }
+        .reflection-card p {
+            color: #b7c7b0;
+            font-weight: 300;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
 
         .reflection-media {
             margin-top: 20px;
@@ -51,7 +128,7 @@
             width: 100%;
             max-width: 600px;
             border-radius: 6px;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
         .reflection-media a {
@@ -76,74 +153,87 @@
             background-color: #0e150c;
             padding: 30px 0;
             text-align: center;
+            margin-top: 60px;
             border-top: 1px solid #2a3326;
+        }
+
+        footer p {
+            color: #7f8f78;
+            font-weight: 300;
         }
     </style>
 </head>
 <body>
 
-<section>
-<div class="container">
+<header>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Portfolio</a>
+        <h1>Assignments & Projects</h1>
+        <p>Academic coursework and personal reflections</p>
+    </div>
+</header>
 
-<div class="reflection-card">
-<h3>PPG Industrial Talk 1 - PPG Malaysia Technology Center</h3>
-<p><em>Date: 20 November 2025 | Course: SECP1513</em></p>
-<p>I attended an industry talk by PPG Malaysia Technology Center (MYTC) as part of my SECP1513 course. It gave me an in-depth look at how large-scale digital operations are run in a global company.</p>
-<p>The talk explored analytics platforms, cloud infrastructure, SAP S/4HANA ERP systems, and enterprise-scale IT operations across regions.</p>
+<section style="background-color:#0e150c;">
+    <div class="container">
+        <h2>Reflections & Learning Experiences</h2>
 
-<div class="reflection-media">
-<a href="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/IT1.pdf" target="_blank">
-View Industry Talk Report (PDF)
-</a>
-</div>
+        <div class="reflection-card">
+            <h3>PPG Industrial Talk 1 - PPG Malaysia Technology Center</h3>
 
-<span class="category-tag">Industry Insights</span>
-<span class="category-tag">Cloud</span>
-</div>
+            <div class="reflection-media">
+                <a href="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/IT1.pdf" target="_blank">
+                    View Industry Talk Report (PDF)
+                </a>
+            </div>
 
-<div class="reflection-card">
-<h3>PC Assembly & Disassembly Practical Session</h3>
-<p><em>Date: 12 November 2025 | Course: SECP1513</em></p>
-<p>I participated in a hands-on PC assembly and disassembly session, examining internal components and reassembling systems step by step.</p>
+            <span class="category-tag">Industry Insights</span>
+            <span class="category-tag">Cloud Computing</span>
+            <span class="category-tag">Enterprise Systems</span>
+        </div>
 
-<div class="reflection-media">
-<img src="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/1768814611136.jpg" alt="PC Building Session">
-</div>
+        <div class="reflection-card">
+            <h3>PC Assembly & Disassembly Practical Session</h3>
 
-<span class="category-tag">Hardware</span>
-<span class="category-tag">Hands-on</span>
-</div>
+            <div class="reflection-media">
+                <img src="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/1768814611136.jpg" alt="PC Building Session">
+            </div>
 
-<div class="reflection-card">
-<h3>UTMDigital Open Day 2025</h3>
-<p><em>Date: 28 October 2025 | Course: SECP1513</em></p>
-<p>I attended the UTMDigital Open Day featuring booths from Microsoft, Dell, Oracle Academy, Canon, and more.</p>
+            <span class="category-tag">Hands-on Learning</span>
+            <span class="category-tag">Hardware</span>
+            <span class="category-tag">Computer Architecture</span>
+        </div>
 
-<div class="reflection-media">
-<img src="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/1768814005622.jpg" alt="UTM Digital Open Day">
-</div>
+        <div class="reflection-card">
+            <h3>UTMDigital Open Day 2025</h3>
 
-<span class="category-tag">Industry Exposure</span>
-</div>
+            <div class="reflection-media">
+                <img src="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/1768814005622.jpg" alt="UTM Digital Open Day">
+            </div>
 
-<div class="reflection-card">
-<h3>Design Thinking Project</h3>
-<p>This project taught me to apply empathy-driven problem solving using the Design Thinking methodology.</p>
+            <span class="category-tag">Technology Exposure</span>
+            <span class="category-tag">Industry Trends</span>
+            <span class="category-tag">Networking</span>
+        </div>
 
-<div class="reflection-media">
-<a href="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/TISProject.pdf" target="_blank">
-View Design Thinking Project (PDF)
-</a>
-</div>
+        <div class="reflection-card">
+            <h3>Design Thinking Project</h3>
 
-<span class="category-tag">Design</span>
-</div>
+            <div class="reflection-media">
+                <a href="https://raw.githubusercontent.com/mrc2rules/mrc2rules.github.io/refs/heads/main/files/TISProject.pdf" target="_blank">
+                    View Design Thinking Project (PDF)
+                </a>
+            </div>
 
-</div>
+            <span class="category-tag">Methodology</span>
+            <span class="category-tag">User-Centered Design</span>
+        </div>
+    </div>
 </section>
 
 <footer>
-<p>&copy; 2025 Mohammed Rahbab Chowdhury</p>
+    <div class="container">
+        <p>&copy; 2025 Mohammed Rahbab Chowdhury. All rights reserved.</p>
+    </div>
 </footer>
 
 </body>
